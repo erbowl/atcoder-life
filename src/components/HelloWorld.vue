@@ -83,11 +83,16 @@
         >
       </li>
     </ul>
+    <chart></chart>
   </div>
 </template>
 
 <script>
+import Chart from "./Chart";
 export default {
+  components: {
+    Chart
+  },
   name: "HelloWorld",
   props: {
     msg: String
